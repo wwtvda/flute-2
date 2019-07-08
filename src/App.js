@@ -1,46 +1,45 @@
-import React from 'react';
-/*css*/
-import './App.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-/* Material */
-import Jumbotron from './material/Jumbotron';
-import Navbar from './material/Navbar';
-import Carousel from './material/Carousel';
-import Header from './material/Heading';
-import Pengu from './material/Pengu';
-import CaroCard from './material/CaroCard';
-import Footer from './material/Footer';
-import Gambar from './material/Gambar';
-import Pagination from './material/Pagination';
-import Card from './material/Card';
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Berita from './Berita';
 import Nav from './material/Nav';
+import Home from './Home';
+import Galeri from './Galeri';
+import Struktur from './Struktur';
+import Visi from './Visi';
+import Tugas from './Tugas';
+import Ideo from './Ideo';
+import Ketahanan from './Ketahanan';
+import Politik from './Politik';
+import Sekre from './Sekre';
+import Regulasi from './Regulasi';
+import Download from './Download';
+import Ppid from './Ppid';
 
-function App() {
-  return (
-    <div>
-      <Navbar/>
-      <Nav/>
-      <Jumbotron/>
-      <Carousel/>
-      <br/>
-      <Header/>
-      <Pengu/>
-      <CaroCard/>
-      <Gambar/>
-      <Pagination/>
-      <div>
-    <h1>Berita</h1>
-    <hr></hr>
-    </div>
-      <Card/>
-      <Pagination/>
-      <Footer/>
-    </div>
-  );
+
+class App extends Component {
+  render (){
+    return (
+      <React.Fragment>
+        <Router>
+          <Switch>
+            <Route exact path='/Home' component={Home}/>
+            <Route path='/berita' component={Berita}/>
+            <Route path='/galeri' component={Galeri}/>
+            <Route path='/struktur' component={Struktur}/>
+            <Route path='/visi' component={Visi}/>
+            <Route path='/tugas' component={Tugas}/>
+            <Route path='/ideo' component={Ideo}/>
+            <Route path='/ketahanan' component={Ketahanan}/>
+            <Route path='/politik' component={Politik}/>
+            <Route path='/sekre' component={Sekre}/>
+            <Route path="/regulasi" component={Regulasi}/>
+            <Route path="/download" component={Download}/>
+            <Route path="/ppid" component={Ppid}/>
+          </Switch>
+        </Router>
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;

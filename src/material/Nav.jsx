@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { MDBNav, MDBNavLink, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem} from "mdbreact";
 
@@ -6,7 +8,7 @@ export default () => (
   <BrowserRouter>
           <MDBNav color="red darken-4" className="font-weight-bold py-1 px-1 mb-4 justify-content-center">
             <MDBNavLink className="white-text" active to="#!">BERANDA</MDBNavLink>
-            <MDBNavLink className="white-text" to="#!">BERITA</MDBNavLink>
+            <MDBNavLink className="white-text" to="#!"><Link to="/Berita">BERITA</Link></MDBNavLink>
             <MDBDropdown>
             <MDBDropdownToggle nav caret className="white-text" >
                   <span className="white-text">PROFILE</span>

@@ -18,7 +18,7 @@ const FooterPage = () => {
       	</MDBCol>
       	<MDBCol md="3">
         	<ul>
-        	<h7 className="title">TENTANG KESBANGPOL</h7>
+        	<h7 className="title"><strong>TENTANG KESBANGPOL</strong></h7>
           	<li className="list-unstyled">
             	<a href="#!">VISI MISI</a>
           	</li>
@@ -35,7 +35,7 @@ const FooterPage = () => {
       	</MDBCol>
       	<MDBCol md="3">
         	<ul>
-        	<h7 className="title">PPDI PEMBANTU</h7>
+        	<h7 className="title"><strong>PPDI PEMBANTU</strong></h7>
           	<li className="list-unstyled">
             	<a href="#!">INFORMASI BERKALA</a>
           	</li>
@@ -52,7 +52,7 @@ const FooterPage = () => {
       	</MDBCol>
       	<MDBCol md="2">
         	<ul>
-        	<h8 className="title">KONTAK</h8>
+        	<h8 className="title"><strong>KONTAK</strong></h8>
           	<li className="list-unstyled">
             	<a href="#!">MAPS</a>
           	</li>
