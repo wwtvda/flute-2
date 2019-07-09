@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {MDBContainer} from "mdbreact";
+import {MDBContainer} from 'mdbreact'
 /*css*/
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -11,25 +11,27 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Pagination from './material/Pagination';
-import Card from './material/Card';
 import Nav from './material/Nav';
 
-export class Berita extends Component {
+export class PpidSertaMerta extends Component {
     render() {
         return (
             <div>
                 <Navbar/>
                 <Nav/>
                 <MDBContainer>
-                <h1>Berita</h1><hr/>
+                <h1>
+                INFORMASI YANG WAJIB DIUMUMKAN SERTA MERTA
+                </h1>
+                <hr/>
+                <p>Informasi akan diumumkan serta merta</p>
+                <br/><br/><br/>
                 </MDBContainer>
-                <Card/>
-                <Pagination/>
+                <CaroCard/>
                 <Footer/>
             </div>
         )
     }
 }
 
-export default Berita
+export default PpidSertaMerta

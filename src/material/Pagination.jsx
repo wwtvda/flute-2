@@ -1,14 +1,13 @@
 import React from "react";
-import { MDBPagination, MDBPageItem, MDBPageNav, MDBCol, MDBRow } from "mdbreact";
+import { MDBPagination, MDBPageItem, MDBPageNav, MDBCol, MDBRow, MDBContainer } from "mdbreact";
 
 const PaginationPage = () => {
   return (
-    <MDBRow>
-      <MDBCol>
+    <MDBContainer>
+    <MDBRow className="justify-content-center">
         <MDBPagination circle>
           <MDBPageItem disabled>
             <MDBPageNav className="page-link">
-              <span>First</span>
             </MDBPageNav>
           </MDBPageItem>
           <MDBPageItem disabled>
@@ -48,13 +47,10 @@ const PaginationPage = () => {
             </MDBPageNav>
           </MDBPageItem>
           <MDBPageItem>
-            <MDBPageNav className="page-link">
-              Last
-            </MDBPageNav>
           </MDBPageItem>
         </MDBPagination>
-      </MDBCol>
     </MDBRow>
+    </MDBContainer>
     )
 }
 

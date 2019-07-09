@@ -1,6 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import {MDBContainer} from 'mdbreact'
 
 
@@ -30,12 +29,13 @@ import Form from './material/Formppid';
 import Down from './material/TabDown';
 
 
-function App() {
+export class Home extends Component {
+  render() {
   return (
     <div>
          <Router>
             <div>
-            <Route exact path="/" component={App} />
+            {/* <Route exact path="/" component={App} /> */}
             <Route path="./Berita" component={Berita} />
             </div>
           </Router>
@@ -61,7 +61,8 @@ function App() {
       <Form/>
       <Footer/>
     </div>
-  );
+    );
+  }
 }
 
-export default App;
+export default Home;

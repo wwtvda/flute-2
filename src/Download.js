@@ -15,7 +15,7 @@ import Nav from './material/Nav';
 import {MDBContainer } from 'mdbreact';
 import Pagination from './material/Pagination';
 
-export class Regulasi extends Component {
+export class Download extends Component {
     render() {
         return (
             <div>
@@ -30,8 +30,8 @@ export class Regulasi extends Component {
                 <CaroCard/>
                 <Footer/>
             </div>
-        )
+        );
     }
 }
 
-export default Regulasi
+export default Download

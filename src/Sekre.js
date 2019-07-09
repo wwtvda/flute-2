@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 /*css*/
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -13,7 +13,7 @@ import Footer from './material/Footer';
 import Nav from './material/Nav';
 import {MDBContainer } from 'mdbreact';
 
-export class Ideo extends Component {
+export class Sekre extends Component {
     render() {
         return (
             <div>
@@ -53,4 +53,4 @@ export class Ideo extends Component {
     }
 }
 
-export default Ideo
+export default Sekre

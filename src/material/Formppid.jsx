@@ -21,7 +21,8 @@ const FormPage = () => {
                 label="Alamat"
                 icon="map-marker-alt"
                 group
-                type="text"
+                type="textarea"
+                row="3"
                 validate
                 error="wrong"
                 success="right"
@@ -70,7 +71,8 @@ const FormPage = () => {
                 label="Permohonan Informasi"
                 icon="sticky-note"
                 group
-                type="text"
+                type="textarea"
+                row="3"
                 validate
               />
               <p><strong>CAPTCHA</strong></p><MDBBtn color="danger">Re-CHAPTCHA</MDBBtn>

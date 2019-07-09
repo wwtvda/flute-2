@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^1.1.4",
     "install": "^0.13.0",
     "mdbreact": "^4.17.0",
     "npm": "^6.10.0",

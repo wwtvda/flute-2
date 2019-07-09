@@ -13,7 +13,7 @@ import Footer from './material/Footer';
 import Nav from './material/Nav';
 import {MDBContainer } from 'mdbreact';
 
-export class Ideo extends Component {
+export class Politik extends Component {
     render() {
         return (
             <div>
@@ -50,4 +50,4 @@ export class Ideo extends Component {
     }
 }
 
-export default Ideo
+export default Politik
