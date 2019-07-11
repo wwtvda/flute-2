@@ -31,7 +31,7 @@ render() {
               </MDBDropdownToggle>
               <MDBDropdownMenu className="dropdown-default">
                 <MDBDropdownItem href="/visi">Visi & Misi</MDBDropdownItem>
-                <MDBDropdownItem href="/tupoksi">Tugas Pokok & Fungsi</MDBDropdownItem>
+                <MDBDropdownItem href="/tugas">Tugas Pokok & Fungsi</MDBDropdownItem>
                 <MDBDropdownItem href="/struktur">Struktur Organisasi</MDBDropdownItem>
                 <MDBDropdown dropright>
                   <MDBDropdownToggle nav caret className="black-text">
