@@ -12,7 +12,7 @@ import Navbar from './material/Navbar';
 import Footer from './material/Footer';
 import Gambar from './material/Gambar';
 import Pagination from './material/Pagination';
-import Nav from './material/Nav';
+import Nav from './material/NaviBar';
 
 export class Galeri extends Component {
     render() {
@@ -20,6 +20,7 @@ export class Galeri extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                 <h1>Galeri</h1><hr/>
                 <Gambar/>

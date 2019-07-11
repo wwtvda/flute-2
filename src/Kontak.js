@@ -7,19 +7,10 @@ import 'mdbreact/dist/css/mdb.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 /* Material */
-import Jumbotron from './material/Jumbotron';
 import Navbar from './material/Navbar';
-import Carousel from './material/Carousel';
-import Header from './material/Heading';
-import Pengu from './material/Pengu';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Gambar from './material/Gambar';
-import Pagination from './material/Pagination';
-import Card from './material/Card';
-import Nav from './material/Nav';
-import Form from './material/Formppid';
-import Down from './material/TabDown';
+import Nav from './material/NaviBar';
 import {MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import Map from './material/Map';
 
@@ -29,6 +20,7 @@ export class Kontak extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                 <h1>KONTAK</h1><hr/>
                     <MDBRow>

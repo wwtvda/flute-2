@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBPagination, MDBPageItem, MDBPageNav, MDBCol, MDBRow, MDBContainer } from "mdbreact";
+import { MDBPagination, MDBPageItem, MDBPageNav, MDBRow, MDBContainer } from "mdbreact";
 
 const PaginationPage = () => {
   return (

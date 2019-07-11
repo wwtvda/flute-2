@@ -17,6 +17,7 @@ import {PpidSetiapSaat} from './PpidSetiapSaat';
 import {PpidSertaMerta} from './PpidSertaMerta';
 import {Download} from './Download';
 import Kontak from './Kontak';
+import Pertanyaan from './Pertanyaan';
 
 class App extends Component {
   render (){
@@ -42,6 +43,7 @@ class App extends Component {
             <Route path="/ppidsetiapsaat" component={PpidSetiapSaat}/>
             <Route path="/ppidsertamerta" component={PpidSertaMerta}/>
             <Route path="/kontak" component={Kontak}/>
+            <Route path="/pertanyaan" component={Pertanyaan}/>
           </Switch>
         </Router>
       </React.Fragment>

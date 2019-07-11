@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Nav from './material/Nav';
+import Nav from './material/NaviBar';
 
 export class PpidSertaMerta extends Component {
     render() {
@@ -19,6 +19,7 @@ export class PpidSertaMerta extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                 <h1>
                 INFORMASI YANG WAJIB DIUMUMKAN SERTA MERTA

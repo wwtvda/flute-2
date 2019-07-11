@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Nav from './material/Nav';
+import Nav from './material/NaviBar';
 import {MDBContainer } from 'mdbreact';
 
 export class Sekre extends Component {
@@ -19,6 +19,7 @@ export class Sekre extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                 <h1>SEKRETARIAT</h1><hr/>
                 <h2>Tugas Pokok</h2>

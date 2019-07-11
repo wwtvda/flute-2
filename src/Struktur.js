@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Nav from './material/Nav';
+import Nav from './material/NaviBar';
 import { MDBContainer } from 'mdbreact'
 
 export class Struktur extends Component {
@@ -19,10 +19,11 @@ export class Struktur extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                 <h1>Struktur Organisasi</h1><hr/>
                 
-                <img src="http://kesbangpol.jogjaprov.go.id/view_image/images/1550475653_Capture.PNG"></img>
+                <img src="http://kesbangpol.jogjaprov.go.id/view_image/images/1550475653_Capture.PNG" alt="struktur"></img>
                 </MDBContainer>
                 <CaroCard/>
                 <Footer/>

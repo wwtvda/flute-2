@@ -20,33 +20,33 @@ const FooterPage = () => {
         	<ul>
         	<h7 className="title"><strong>TENTANG KESBANGPOL</strong></h7>
           	<li className="list-unstyled">
-            	<a href="#!">VISI MISI</a>
+            	<a href="/visi">VISI MISI</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">TUGAS</a>
+            	<a href="/tugas">TUGAS POKOK & Fungsi</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">STRUKTUR</a>
+            	<a href="/struktur">STRUKTUR ORGANISASI</a>
           	</li>
-          	<li className="list-unstyled">
-            	<a href="#!">BIDANG</a>
-          	</li>
+			<li className="list-unstyled"><a href="/ideo">BIDANG IDEOLOGI DAN KEWASPADAAN NASIONAL</a></li>
+			<li className="list-unstyled"><a href="/ideo">BIDANG KETAHANAN SENI, BUDAYA, AGAMA DAN EKONOMI</a></li>
+			<li className="list-unstyled"><a href="/ideo">BIDANG POLITIK DALAM NEGERI DAN KEMASYARAKATAN</a></li>
         	</ul>
       	</MDBCol>
       	<MDBCol md="3">
         	<ul>
         	<h7 className="title"><strong>PPDI PEMBANTU</strong></h7>
           	<li className="list-unstyled">
-            	<a href="#!">INFORMASI BERKALA</a>
+            	<a href="/ppidberkala">INFORMASI BERKALA</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">INFORMASI SETIAP SAAT</a>
+            	<a href="/ppidsetiapsaat">INFORMASI SETIAP SAAT</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">INFORMASI SERTA MERTA</a>
+            	<a href="/ppidsertamerta">INFORMASI SERTA MERTA</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">PERMOHONAN</a>
+            	<a href="/ppid">PERMOHONAN</a>
           	</li>
         	</ul>
       	</MDBCol>
@@ -54,13 +54,13 @@ const FooterPage = () => {
         	<ul>
         	<h8 className="title"><strong>KONTAK</strong></h8>
           	<li className="list-unstyled">
-            	<a href="#!">MAPS</a>
+            	<a href="/kontak">ALAMAT</a>
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">TELP</a>
+            	TELP : 0274 551136/551137
           	</li>
           	<li className="list-unstyled">
-            	<a href="#!">EMAIL</a>
+            	EMAIL : 
           	</li>
         	</ul>
       	</MDBCol>

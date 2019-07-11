@@ -11,7 +11,7 @@ import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Reg from './material/TabRegu'
 import Footer from './material/Footer';
-import Nav from './material/Nav';
+import Nav from './material/NaviBar';
 import {MDBContainer } from 'mdbreact';
 import Pagination from './material/Pagination';
 
@@ -21,6 +21,7 @@ export class Regulasi extends Component {
             <div>
                 <Navbar/>
                 <Nav/>
+                <br/>
                 <MDBContainer>
                     <h1>Regulasi</h1><hr/>
                     <Reg/>
