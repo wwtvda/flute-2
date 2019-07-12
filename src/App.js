@@ -18,6 +18,7 @@ import {PpidSertaMerta} from './PpidSertaMerta';
 import {Download} from './Download';
 import Kontak from './Kontak';
 import Pertanyaan from './Pertanyaan';
+import Berita1 from './Berita1';
 
 class App extends Component {
   render (){
@@ -44,6 +45,7 @@ class App extends Component {
             <Route path="/ppidsertamerta" component={PpidSertaMerta}/>
             <Route path="/kontak" component={Kontak}/>
             <Route path="/pertanyaan" component={Pertanyaan}/>
+            <Route path="/berita1" component={Berita1}/>
           </Switch>
         </Router>
       </React.Fragment>

@@ -5,7 +5,7 @@ const PaginationPage = () => {
   return (
     <MDBContainer>
     <MDBRow className="justify-content-center">
-        <MDBPagination circle>
+        <MDBPagination circle color="red">
           <MDBPageItem disabled>
             <MDBPageNav className="page-link">
             </MDBPageNav>

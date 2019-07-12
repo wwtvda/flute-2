@@ -30,6 +30,7 @@ export class Home extends Component {
       <Header/>
       <Pengu/>
       <CaroCard/>
+      
       <Footer/>
     </div>
     );

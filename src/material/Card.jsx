@@ -9,12 +9,12 @@ const CardExample = () => {
         <MDBCard style={{ width: "22rem" }}>
             <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
             <MDBCardBody >
-            <MDBCardTitle>Berita 1</MDBCardTitle>
+            <MDBCardTitle>Pemantauan Tenaga Kerja Asing Oleh Pemda DIY</MDBCardTitle>
             <MDBCardText>
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
             </MDBCardText>
-            <MDBBtn href="#">Selengkapnya</MDBBtn>
+            <MDBBtn href="/berita1">Selengkapnya</MDBBtn>
             </MDBCardBody>
         </MDBCard>
         </MDBCol>

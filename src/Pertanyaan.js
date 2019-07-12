@@ -14,6 +14,9 @@ import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
 import Nav from './material/NaviBar'
 import { MDBContainer } from 'mdbreact'
+import Chat from './material/Comment'
+import Pagination from './material/Pagination';
+import FormPerta from './material/FormPerta'
 
 export class Pertanyaan extends Component {
     render() {
@@ -24,6 +27,12 @@ export class Pertanyaan extends Component {
                 <br/>
                 <MDBContainer>
                     <h1>PERTANYAAN</h1><hr/>
+                    <p>Anda dapat menanyakan kepada kami melalui form tanya jawab di halaman ini.</p>
+                    <Chat/>
+                    <br/>
+                    <Pagination/>
+                    <h2>Form Pertanyaan</h2>
+                    <FormPerta/>
                 </MDBContainer>
                 <CaroCard/>
                 <Footer/>
