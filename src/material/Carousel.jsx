@@ -1,6 +1,16 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
+import { MDBCarousel,
+        MDBCarouselCaption,
+        MDBCarouselInner,
+        MDBCarouselItem,
+        MDBView,
+        MDBMask,
+        MDBContainer,
+        MDBBtn } from "mdbreact";
+import S1 from './img/s1.jpg'
+import S2 from './img/s2.jpg'
+import S3 from './img/s3.jpg'
+
 
 const CarouselPage = () => {
   return (
@@ -17,42 +27,42 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              src={S1}
               alt="First slide"
             />
-          <MDBMask overlay="black-light" />
+          <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Light mask</h3>
-            <p>First text</p>
+            <h3 className="h3-responsive">Kegiatan Sinau Pancasila Dan Wawasan Kebangsaan Di Kecamatan Sewon, Kabupaten Bantul</h3>
+            <MDBBtn color="danger">Selengkapnya</MDBBtn>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+              src={S2}
               alt="Second slide"
             />
-          <MDBMask overlay="black-strong" />
+          <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Strong mask</h3>
-            <p>Second text</p>
+            <h3 className="h3-responsive">RAPAT KERJA FORUM PEMBAURAN KEBANGSAAN DAERAH ISTIMEWA YOGYAKARTA</h3>
+            <MDBBtn color="danger">Selengkapnya</MDBBtn>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+              src={S3}
               alt="Third slide"
             />
           <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
+            <h3 className="h3-responsive">APEL PAGI KARYAWAN KARYAWATI BADAN KESBANGPOL DIY</h3>
+            <MDBBtn color="danger">Selengkapnya</MDBBtn>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>

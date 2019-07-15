@@ -31,6 +31,7 @@ export class Berita1 extends Component {
                 </p>
                 <img src="http://kesbangpol.jogjaprov.go.id/view_image/images/1561613192_22.jpg" alt="kesb" width="50%"/>
                 <br/>
+                <br/>
                 </MDBContainer>
                 <CaroCard/>
                 <Footer/>

@@ -33,9 +33,10 @@ export class CaroCard extends Component {
                 display: this.state.display ? "block" : "none"
               }}
             >
+              <hr/>
               <Slider {...settings}>
                 <div>
-                  <a href="google.com">
+                  <a href="www.google.com">
                       <img src={Sl1} alt="Bappenas"/>
                   </a>
                 </div>
