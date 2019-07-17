@@ -25,6 +25,7 @@ export class Struktur extends Component {
                 
                 <img src="http://kesbangpol.jogjaprov.go.id/view_image/images/1550475653_Capture.PNG" alt="struktur"></img>
                 </MDBContainer>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

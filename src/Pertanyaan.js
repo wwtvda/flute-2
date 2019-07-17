@@ -34,6 +34,7 @@ export class Pertanyaan extends Component {
                     <h2>Form Pertanyaan</h2>
                     <FormPerta/>
                 </MDBContainer>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

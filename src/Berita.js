@@ -13,6 +13,7 @@ import Footer from './material/Footer';
 import Pagination from './material/Pagination';
 import Card from './material/Card';
 import Nav from './material/NaviBar';
+import CaroCard from './material/CaroCard';
 
 export class Berita extends Component {
     render() {
@@ -25,7 +26,10 @@ export class Berita extends Component {
                 <h1>Berita</h1><hr/>
                 <Card/><br/>
                 <Pagination/>
+                
                 </MDBContainer>
+                <br/><br/>
+                <CaroCard/>
                 <Footer/>
             </div>
         )

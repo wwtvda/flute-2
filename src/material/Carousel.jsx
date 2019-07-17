@@ -34,7 +34,7 @@ const CarouselPage = () => {
           </MDBView>
           <MDBCarouselCaption>
             <h3 className="h3-responsive">Kegiatan Sinau Pancasila Dan Wawasan Kebangsaan Di Kecamatan Sewon, Kabupaten Bantul</h3>
-            <MDBBtn color="danger">Selengkapnya</MDBBtn>
+            <MDBBtn color="danger" href="/berita">Selengkapnya</MDBBtn>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
@@ -48,7 +48,7 @@ const CarouselPage = () => {
           </MDBView>
           <MDBCarouselCaption>
             <h3 className="h3-responsive">RAPAT KERJA FORUM PEMBAURAN KEBANGSAAN DAERAH ISTIMEWA YOGYAKARTA</h3>
-            <MDBBtn color="danger">Selengkapnya</MDBBtn>
+            <MDBBtn color="danger" href="/berita">Selengkapnya</MDBBtn>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">

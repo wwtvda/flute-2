@@ -38,7 +38,7 @@ export class Ketahanan extends Component {
                     </ol>
                 </p>
                 </MDBContainer>
-                <br/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

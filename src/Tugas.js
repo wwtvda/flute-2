@@ -37,7 +37,7 @@ export class Tugas extends Component {
                     </ol>
                 </p>
                 </MDBContainer>
-                <br/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

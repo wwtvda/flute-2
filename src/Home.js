@@ -29,6 +29,7 @@ export class Home extends Component {
       <br/>
       <Header/>
       <Pengu/>
+      <br/><br/>
       <CaroCard/>
       
       <Footer/>

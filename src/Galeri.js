@@ -13,6 +13,7 @@ import Footer from './material/Footer';
 import Gambar from './material/Gambar';
 import Pagination from './material/Pagination';
 import Nav from './material/NaviBar';
+import CaroCard from './material/CaroCard';
 
 export class Galeri extends Component {
     render() {
@@ -26,6 +27,8 @@ export class Galeri extends Component {
                 <Gambar/>
                 </MDBContainer>
                 <Pagination/>
+                <br/><br/>
+                <CaroCard/>
                 <Footer/>
             </div>
         )

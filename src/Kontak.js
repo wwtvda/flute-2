@@ -57,7 +57,7 @@ export class Kontak extends Component {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
-                <br/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

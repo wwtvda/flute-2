@@ -27,7 +27,7 @@ export class Visi extends Component {
                 <h2>Misi</h2>
                 <p>Meningkatkan hubungan yang sinergis antara Pemerintah, pelaku Politik dan Organisasi Kemasyarakatan, di bidang kesatuan bangsa dalam bina idiologi, wawasan kebangsaan, kewaspadaan nasional, politik dalam negeri, ketahanan seni budaya, agama, ketahanan ekonomi, politik, ketentraman, ketertiban dan keamanan.</p>
                 </MDBContainer>
-                <br/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

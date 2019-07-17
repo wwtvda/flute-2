@@ -5,7 +5,7 @@ const BadgePage = props => {
 return (
 <MDBContainer>
     <br/>
-  <h1>Pengumuman <MDBBadge color="primary">New</MDBBadge>
+  <h1>Pengumuman <MDBBadge color="primary"><a href='/berita'>New</a></MDBBadge>
   </h1><br/>
 </MDBContainer>
 );

@@ -28,6 +28,7 @@ export class Regulasi extends Component {
                 </MDBContainer>
                 <br/>
                 <Pagination/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>

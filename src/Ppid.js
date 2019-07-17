@@ -27,7 +27,7 @@ export class Ppid extends Component {
                 <Ppi/>
                 <br/>
                 </MDBContainer>
-                <br/>
+                <br/><br/>
                 <CaroCard/>
                 <Footer/>
             </div>
