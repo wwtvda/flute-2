@@ -11,8 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import CaroCard from './material/CaroCard';
 import Footer from './material/Footer';
-import Nav from './material/NaviBar'
-import A1 from './material/img/a1.jpg'
+import Nav from './material/NaviBar';
+import c1 from './material/img/c1.jpg';
+import berita1 from './material/img/berita1.jpg';
+import berita11 from './material/img/berita11.jpg';
 import {MDBContainer} from 'mdbreact'
 
 export class Berita1 extends Component {
@@ -22,14 +24,23 @@ export class Berita1 extends Component {
                 <Navbar/>
                 <Nav/>
                 <MDBContainer><br/>
-                <h1>Pemantauan Tenaga Kerja Asing Oleh Pemda DIY</h1><hr/>
-                <img src={A1} alt="Asmara"/>
-                <p className="text-justify">Pada hari Rabu tanggal 19 Juni 2019  dimulai pukul 08.30 dan berakhir pada pukul  12.00 WIB, telah dilaksanakan  kegiatan Pemantauan Orang Asing oleh TIM POA Pemda  DIY dengan  melibatkan personil  dari Polda DIY, Korem 072/Pamungkas, Kemenkumham DIY, Kanwil Kemenag DIY, Kantor Imigrasi Kelas I Yogyakarta, Kejati DIY, intel Lanud Adisucipto Yogyakarta, Lanal Yogyakarta, Binda DIY, LLDikti Yogyakarta, Disnakertrans DIY, Disdikpora DIY, Dinas Pariwisata DIY, Biro Tapem Setda DIY, Kantor P2TSP DIY, dan Kesbangpol DIY sebagai penanggungjawab kegiatan.
-                Kegiatan diawali dengan koordinasi Tim POA dan  arahan dari pimpinan Kesbangpol DIY.
-                Sedangkan lokasi kegiatan pemantauan yaitu PT Liuhe Food Indonesia, Boshe VVIP Club, Liquid Café, Massimo Gelato, PT Rajawali Indonesia. PSIM Yogyakarta,dan CV Nusa Citra Mandiri.
-                Dari hasil Pemantauan, beberapa tenaga kerja asing telah melakukan prosedur  perijinan, dan memiliki surat-surat  kelengkapan keimigrasian  yang berlaku, tetapi ada juga beberapa hal yang harus segera ditindaklanjuti  oleh instansi yang berkaitan  dengan ketenagakerjaan.
+                <h1>Kegiatan Sinau Pancasila Dan Wawasan Kebangsaan Di Kecamatan Sewon, Kabupaten Bantul</h1><hr/>
+                <img src={c1} alt="Asmara"/>
+                <p className="text-justify">Kegiatan Sinau Pancasila dan wawasan Kebangsaan di 
+                kabupaten Bantul diawali dikecamatan Sewon. Kegiatan ini dilaksanakan pada 
+                hari Kamis, tanggal 4 Juni tahun 2019, bertempat di Aula Kecamatan Sewon.<br/>
+                Sebagai  Narasumber dari kegiatan tersebut adalah Eko Suswanto 
+                Ketua  komisi A DPRD DIY, Agung Supriyono Kaban Kesbangpol DIY, 
+                dan Surono dari Pusat Studi Pancasila UGM.<br/>
+                Peserta dari kegiatan ini adalah Pasukan Pengibar Bendera (Paskibra) 
+                Kecamatan Sewon sejumlah  kurang lebih 90 orang,Tokoh Agama dan Tokoh Masyarakat 
+                Kecamatan Sewon lebih kurang 10 orang.<br/>
+                Kegiatan diawali dengan menyanyikan lagu Kebangsaan Indonesia Raya, 
+                dilanjutkan pemaparan materi oleh Narasumber , Tanya jawab serta diskusi  
+                dan diakhiri dengan menyanyikan lagu Bagimu Negeri.
                 </p>
-                <img src="http://kesbangpol.jogjaprov.go.id/view_image/images/1561613192_22.jpg" alt="kesb" width="50%"/>
+                {/* <img src={berita1} alt="kesb" width="50%"/> */}
+                <img src={berita11} alt="kesb" width="40%"/>
                 <br/>
                 <br/>
                 </MDBContainer>

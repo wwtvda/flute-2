@@ -11,9 +11,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from './material/Navbar';
 import Footer from './material/Footer';
 import Pagination from './material/Pagination';
-import Card from './material/Card';
 import Nav from './material/NaviBar';
 import CaroCard from './material/CaroCard';
+import Beritaa from './material/Beritaa';
 
 export class Berita extends Component {
     render() {
@@ -24,7 +24,7 @@ export class Berita extends Component {
                 <br/>
                 <MDBContainer>
                 <h1>Berita</h1><hr/>
-                <Card/><br/>
+                <Beritaa/><br/>
                 <Pagination/>
                 
                 </MDBContainer>
