@@ -2,7 +2,7 @@
   "name": "flute",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://wwtvda.github.io/flute-2"
+  "homepage":"https://wwtvda.github.io/flute-2",
   "dependencies": {
     "google-map-react": "^1.1.4",
     "install": "^0.13.0",
